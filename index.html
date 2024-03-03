@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        input, button {
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>Mock API Post Filter</title>
+</head>
+<body>
+    <h1>Mock API Post Filter</h1>
+    <label for="titleInput">Enter title keyword:</label>
+    <input type="text" id="titleInput" placeholder="Enter title...">
+    <button onclick="fetchAndFilterPosts()">Filter Posts</button>
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
